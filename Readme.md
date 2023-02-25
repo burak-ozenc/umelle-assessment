@@ -65,7 +65,7 @@ Now the project is ready to run.
 
 ## Usage
 
-Now you can run your project. A Swagger window will open. 
+Run your project and a Swagger window will pop up. 
 
 
 ### User/CreateUser
@@ -95,4 +95,9 @@ If your authentication succeeded, you will receive 4 random numbers between 0 an
 
 ## Project Notes
 
-Database can be 
+Here are some notes about this small project.
+
+Since it is a small project, I have not created separate projects for domain, infrastructure and application layers.
+But folder structure is well-designed, named with main logics and easy to understand. 
+You have enough flexibility to change the database from MSSQL to any choice of yours. Just need to update the methods on persistence/repository folder.
+Project sticks to the OOP principles.
